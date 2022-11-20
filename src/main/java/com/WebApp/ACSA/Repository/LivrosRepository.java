@@ -6,6 +6,6 @@ import org.springframework.stereotype.Repository;
 import com.WebApp.ACSA.DOMINIO.livros;
 
 @Repository
-public interface Livros extends JpaRepository<livros, Integer> {
+public interface LivrosRepository extends JpaRepository<livros, Integer> {
 
 }
